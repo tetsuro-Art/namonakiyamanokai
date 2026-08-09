@@ -58,9 +58,3 @@ img {
 .cover-home {
     background-image: url(images/yama7.webp);
 }
-body{
-    background-color: #2f0fe2;
-    background-image: url(images/yama7.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
