@@ -63,3 +63,9 @@ table {
     justify-content: center;
     color: rgb(86, 127, 46);
 }
+body{
+    background-color: #2f0fe2;
+    background-image: url(images/yama5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
