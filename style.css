@@ -76,3 +76,11 @@ img {
     background-position: center bottom;
     height: 1050px;
 }
+@media (max-width: 600px) {
+    .cover {
+        height: auto;
+        min-height: 100vh;   /* ← スマホ画面の高さに合わせて縦に広がる */
+        background-size: cover;
+        background-position: center;
+    }
+}
