@@ -8,6 +8,13 @@ body{
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
     color: #432;
+
+    /* あなたが望む青背景 */
+    background-color: #2f0fe2;
+
+    background-image: url(images/yama2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
@@ -18,12 +25,12 @@ img {
     max-width: 100%;
 }
 
-/* レイアウト */
+/*レイアウト */
 .align-center {
     text-align: center;
 }
 
-/* 見出し */
+/*見出し */
 .font-english {
     font-family: "Philosopher", sans-serif;
     font-weight: normal;
@@ -36,7 +43,7 @@ img {
     line-height: 1.4;
 }
 
-/* ヘッダー ------------------------------ */
+/*ヘッダー */
 .page-header {
     padding-top: .5rem;
 }
@@ -45,13 +52,14 @@ img {
     width: 210px;
 }
 
+/* ナビ（元の大きさに戻す） */
 .main-nav {
     display: flex;
     justify-content: center;
-    gap: 10.0rem;
-    font-size: 1.5rem;
+    gap: 10rem;
+    font-size: 1.5rem;   /* ←元の大きさ */
     list-style: none;
-    padding-top: 1.0rem;
+    padding-top: 1rem;
 }
 
 .main-nav a {
@@ -62,16 +70,11 @@ img {
     color: #0bd;
 }
 
-/* 背景（あなたの初期状態） */
+/* 背景領域 */
 .cover {
     background-size: cover;
     background-position: center bottom;
     height: 1050px;
 }
 
-body {
-    background-color: #f2f0e2;
-    background-image: url(images/yama2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* ★ スマホ専用の調整は一切不要なので削除 ★ */
