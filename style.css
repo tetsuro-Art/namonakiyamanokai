@@ -8,9 +8,9 @@ html {
 body {
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
-    color: rgb(158, 86, 161);
+    color: #432;
 
-    /* 背景色は残すが、背景画像は body ではなく cover に移す */
+    /* 背景色は残すが、背景画像は cover に移す */
     background-color: #2f0fe2;
 }
 
@@ -50,7 +50,7 @@ img {
     width: 210px;
 }
 
-/* ナビゲーション */
+/* ナビゲーション（PC と同じまま） */
 .main-nav {
     display: flex;
     justify-content: center;
@@ -60,25 +60,23 @@ img {
 }
 
 .main-nav a {
-    color: rgb(160, 81, 142);
+    color: #432;
 }
 
 .main-nav a:hover {
     color: #0bd;
 }
 
-/* ★ 背景画像は cover に一本化（ここが最重要） */
+/* 背景画像は cover に一本化 */
 .cover {
     background-image: url(images/yama2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-    /* PC 用の高さ（そのままでOK） */
-    height: 1050px;
+    height: 1050px; /* PC 用 */
 }
 
-/* ★ スマホ最適化（青が出ない／写真が全面を覆う） */
+/* ★ スマホでも PC と同じ見た目を維持するための最小限の調整 */
 @media (max-width: 600px) {
 
     .cover {
@@ -88,19 +86,5 @@ img {
         background-position: center;
     }
 
-    .main-nav {
-        flex-direction: column;
-        gap: 1.5rem;
-        font-size: 1.2rem;
-    }
-
-    .logo {
-        width: 150px;
-    }
-
-    .page-title {
-        font-size: 1.5rem;
-        margin-top: 1.5rem;
-    }
+    /* 他の要素は PC と同じまま → 何も変更しない */
 }
-
