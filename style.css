@@ -8,7 +8,7 @@ html {
 body {
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
-    color: #432;
+    color: rgb(158, 86, 161);
 
     /* 背景色は残すが、背景画像は body ではなく cover に移す */
     background-color: #2f0fe2;
@@ -60,7 +60,7 @@ img {
 }
 
 .main-nav a {
-    color: #432;
+    color: rgb(160, 81, 142);
 }
 
 .main-nav a:hover {
