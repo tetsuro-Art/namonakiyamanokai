@@ -9,7 +9,7 @@ body{
     line-height: 1.7;
     color: #432;
 
-    /* あなたが望む青背景 */
+    /* あなたが望む青背景（初期状態） */
     background-color: #2f0fe2;
 
     background-image: url(images/yama2.jpg);
@@ -25,12 +25,12 @@ img {
     max-width: 100%;
 }
 
-/*レイアウト */
+/* レイアウト */
 .align-center {
     text-align: center;
 }
 
-/*見出し */
+/* 見出し */
 .font-english {
     font-family: "Philosopher", sans-serif;
     font-weight: normal;
@@ -43,7 +43,7 @@ img {
     line-height: 1.4;
 }
 
-/*ヘッダー */
+/* ヘッダー */
 .page-header {
     padding-top: .5rem;
 }
@@ -52,7 +52,7 @@ img {
     width: 210px;
 }
 
-/* ナビ（元の大きさに戻す） */
+/* ナビ（初期の紫っぽい色＋元のサイズ） */
 .main-nav {
     display: flex;
     justify-content: center;
@@ -63,18 +63,16 @@ img {
 }
 
 .main-nav a {
-    color: #432;
+    color: #432;   /* ←初期の紫っぽい色 */
 }
 
 .main-nav a:hover {
     color: #0bd;
 }
 
-/* 背景領域 */
+/* 背景領域（初期状態） */
 .cover {
     background-size: cover;
     background-position: center bottom;
     height: 1050px;
 }
-
-/* ★ スマホ専用の調整は一切不要なので削除 ★ */
