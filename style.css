@@ -60,16 +60,17 @@ body{
     background-size: cover;
 }
 @media (max-width: 600px) {
-
     body {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        min-height: 100vh;   /* スマホ画面の高さに合わせる */
+        min-height: 100vh;
+        background-color: transparent; /* ← これを追加するだけ！ */
     }
 
     .cover {
-        height: auto;        /* 固定高さを解除 */
-        min-height: 100vh;   /* 背景領域を画面いっぱいに */
+        height: auto;
+        min-height: 100vh;
     }
 }
+
