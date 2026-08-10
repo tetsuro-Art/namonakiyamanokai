@@ -1,76 +1,106 @@
 @charset "UTF-8";
-html{
+
+/* 基本設定 */
+html {
     font-size: 100%;
 }
-body{
+
+body {
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
     color: #432;
+
+    /* 背景色は残すが、背景画像は body ではなく cover に移す */
+    background-color: #2f0fe2;
 }
+
+/* リンク・画像 */
 a {
     text-decoration: none;
 }
+
 img {
     max-width: 100%;
 }
-/*レイアウト */
+
+/* レイアウト */
 .align-center {
     text-align: center;
 }
-/*見出し */
-.font-englisy {
+
+/* 見出し */
+.font-english {
     font-family: "Philosopher", sans-serif;
     font-weight: normal;
 }
+
 .page-title {
     font-size: 2rem;
     text-align: center;
     margin-top: 2rem;
     line-height: 1.4;
 }
-/*ヘッダー
---------------------------------- */
+
+/* ヘッダー */
 .page-header {
     padding-top: .5rem;
 }
+
 .logo {
     width: 210px;
 }
+
+/* ナビゲーション */
 .main-nav {
     display: flex;
     justify-content: center;
-    gap: 10.0rem;
-    font-size: 1.5rem;
+    gap: 10rem;
     list-style: none;
-    padding-top: 1.0rem;
+    padding-top: 1rem;
 }
+
 .main-nav a {
     color: #432;
 }
+
 .main-nav a:hover {
     color: #0bd;
 }
+
+/* ★ 背景画像は cover に一本化（ここが最重要） */
 .cover {
-    height: 1050px;
-}
-body{
-    background-color: #2f0fe2;
     background-image: url(images/yama2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
+    /* PC 用の高さ（そのままでOK） */
+    height: 1050px;
 }
+
+/* ★ スマホ最適化（青が出ない／写真が全面を覆う） */
 @media (max-width: 600px) {
-    body {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 100vh;
-        background-color: transparent; /* ← これを追加するだけ！ */
-    }
 
     .cover {
-        height: auto;
-        min-height: 100vh;
+        height: auto;        /* 固定高さを解除 */
+        min-height: 100vh;   /* スマホ画面の高さに合わせる */
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .page-title {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
     }
 }
 
