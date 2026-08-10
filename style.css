@@ -64,18 +64,19 @@ body{
 @media (max-width: 600px) {
 
     body {
-        background-size: cover;
-        background-position: center;
+        background-image: url(images/yama2.jpg);
+        background-size: cover;       /* 画面にフィット */
+        background-position: center;  /* 中央に配置 */
         background-repeat: no-repeat;
-        min-height: 100vh;
-        background-color: transparent; /* 青い背景を消す */
+        min-height: 100vh;            /* 画面の高さに合わせる */
     }
 
     .cover {
-        height: auto;            /* 固定高さを解除 */
-        min-height: 100vh;       /* スマホ画面にフィット */
+        height: auto;                 /* 固定高さを解除 */
+        min-height: 100vh;            /* 背景領域を画面いっぱいに */
         background-size: cover;
         background-position: center;
     }
 }
+
 
