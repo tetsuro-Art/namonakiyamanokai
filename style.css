@@ -69,4 +69,8 @@ img {
 .main-nav a:hover {
     color: #0bd;
 }
-
+.cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 1050px;
+}
