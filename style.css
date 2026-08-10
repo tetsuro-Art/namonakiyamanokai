@@ -63,32 +63,19 @@ body{
 }
 @media (max-width: 600px) {
 
-    .cover {
-        height: auto;        /* 固定高さを解除 */
-        min-height: 100vh;   /* 画面の高さにフィット */
-        background-size: cover;
-        background-position: center;
-    }
-
     body {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         min-height: 100vh;
+        background-color: transparent; /* 青い背景を消す */
     }
 
-    .main-nav {
-        flex-direction: column;
-        gap: 1.5rem;
-        font-size: 1.2rem;
-    }
-
-    .logo {
-        width: 150px;
-    }
-
-    .page-title {
-        font-size: 1.5rem;
-        margin-top: 1.5rem;
+    .cover {
+        height: auto;            /* 固定高さを解除 */
+        min-height: 100vh;       /* スマホ画面にフィット */
+        background-size: cover;
+        background-position: center;
     }
 }
+
