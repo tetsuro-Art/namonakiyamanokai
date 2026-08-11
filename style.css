@@ -11,7 +11,6 @@ body{
 
     /* あなたが望む青背景（初期状態） */
     background-color: #000;
-
     background-image: url(images/yama2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +62,7 @@ img {
 }
 
 .main-nav a {
-    color: #432;   /* ←初期の紫っぽい色 */
+    color: rgb(150, 112, 75);   /* ←初期の紫っぽい色 */
 }
 
 .main-nav a:hover {
