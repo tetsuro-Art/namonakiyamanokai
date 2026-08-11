@@ -69,6 +69,7 @@ img {
     color: #0bd;
 }
 .cover {
+    background-image: url(images/yama2.jpg);
     background-size: cover;
     background-position: center bottom;
     height: 1050px;
