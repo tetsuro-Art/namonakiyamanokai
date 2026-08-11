@@ -33,18 +33,9 @@
         <h2 class="page-title font-english">Why did you want to climb?  "Because it's there."</h2>
         <h2 class="page-title font-english">～名もなき山の会ホームページへようこそ～</h2>
 
-        <div id="visitor-counter">訪問者数：読み込み中…</div>
-        <script>
-        fetch("https://hits.sh/tetsuro-art.github.io/namonakiyamanokai.svg?style=flat&label=訪問者数")
-        .then(() => {
-            document.getElementById("visitor-counter").innerHTML =
-            '<img src="https://hits.sh/tetsuro-art.github.io/namonakiyamanokai.svg?style=flat&label=訪問者数">';
-        })
-        .catch(() => {
-            document.getElementById("visitor-counter").innerText =
-            "訪問者数：取得できませんでした";
-        });
-        </script>
+        <div id="visitor-counter">
+            <img src="https://hits.sh/tetsuro-art.github.io/namonakiyamanokai.svg?style=flat&label=訪問者数" alt="訪問者数">
+        </div>
 
         <footer class="page-footer">
             <div class="copyright">

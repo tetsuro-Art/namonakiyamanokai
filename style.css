@@ -81,8 +81,10 @@ img {
     color:white
 }
 #visitor-counter {
-    font-size: 1.3rem;
-    color: #fff;
     text-align: center;
     margin-top: 1rem;
 }
+#visitor-counter img {
+    filter: drop-shadow(0 0 3px #000);
+}
+
