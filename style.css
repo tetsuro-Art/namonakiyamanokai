@@ -83,6 +83,7 @@ img {
 #visitor-counter {
     text-align: center;
     margin-top: 1rem;
+    font-size: 1.4rem;  
 }
 #visitor-counter img {
     filter: drop-shadow(0 0 3px #000);
