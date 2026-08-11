@@ -6,6 +6,11 @@ body{
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
     color: #432;
+
+    background-color: #000;
+    background-image: url(images/yama2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 a {
     text-decoration: none;
@@ -58,9 +63,4 @@ img {
 .cover-home {
     background-image: url(images/yama3.jpg);
 }
-body{
-    background-color: #2f0fe2;
-    background-image: url(images/yama3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
