@@ -73,3 +73,9 @@ img {
     background-position: center bottom;
     height: 1050px;
 }
+.copyright{
+    text-align: center;
+    padding: 25rem 0;
+    margin-top: 6rem;
+    color:white
+}
