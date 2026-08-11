@@ -6,6 +6,8 @@ body{
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
     color: rgb(119, 91, 62);
+
+    background-color: #000;
 }
 a {
     text-decoration: none;
@@ -66,10 +68,4 @@ img {
     background-color: transparent;/* 中塗りなし（透明） */
     border: 4px solid coral;      /* フレームをコーラル色に */
     cursor: pointer;              /* ホバーで指マーク */
-}
-body{
-    background-color: #2f0fe2;
-    background-image: url(images/yama6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }

@@ -8,9 +8,6 @@ body{
     color: #432;
 
     background-color: #000;
-    background-image: url(images/yama2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 a {
     text-decoration: none;
