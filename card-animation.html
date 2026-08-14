@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メンバーズカード表示</title>
+    <style>
+        /* 画面中央にカードを配置するための設定 */
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box
+        }
+
+        /* メンバーズカードの画像設定 */
+        .members-card {
+            width: 100%;       /* カードの横幅 */
+            max-width: 1400px;
+            height: auto;
+            border-radius: 30px; /* 角を丸くする */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15); /* 影をつけて立体的に */
+
+            /* 👇 アニメーションの設定（4秒に1回無限ループ） */
+            animation: flash 3s infinite linear;
+        }
+
+        /* 👇 フラッシュの動き（アニメーション）の定義 */
+        @keyframes flash {
+            0% {
+                filter: brightness(1); /* 通常の明るさ */
+            }
+            45% {
+                filter: brightness(1); /* 45%まで変化なし */
+            }
+            50% {
+                filter: brightness(1.8); /* 50%の一瞬だけピカッと明るく */
+            }
+            55% {
+                filter: brightness(1); /* 55%で元の明るさに戻る */
+            }
+            100% {
+                filter: brightness(1); /* 残りの時間は静止 */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 👇 images フォルダの中の membership-card.png を読み込むように修正しました -->
+    <img src="images/membership-card.png" alt="メンバーズカード" class="members-card">
+
+</body>
+</html>
