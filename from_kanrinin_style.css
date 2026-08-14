@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{
+    background-image: url(images/hikari.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(137, 142, 12);
+}
