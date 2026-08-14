@@ -65,3 +65,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.enter-btn{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(9, 9, 9);                 
+    background-color: transparent;/* 中塗りなし（透明） */
+    cursor: pointer;              /* ホバーで指マーク */
+}
