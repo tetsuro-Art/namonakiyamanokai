@@ -12,3 +12,8 @@
     height: 100%;
     object-fit: contain; /* 文字が切れないように収める */
 }
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
