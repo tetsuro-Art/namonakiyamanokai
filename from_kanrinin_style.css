@@ -28,3 +28,21 @@ h3{
     font-size: 20px;
     color: rgb(6, 6, 6);
 }
+.new{
+    color: #fff;
+    background: #0bd;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    animation-name: new-animation;
+    animation-duration: 2s;
+    animation-iteration-count: 8;
+    animation-timing-function: ease-in-out;
+    margin: 20px 0;
+}
+@keyframes new-animation {
+    0%,50%,100% { transform: translateY(0); }
+    25% { transform: translateY(-25px); }
+    75% { transform: translateY(-15px); }
+}
