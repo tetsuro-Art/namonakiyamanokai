@@ -3,10 +3,28 @@ body{
     background-image: url(images/hikari.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    animation: flash 3s infinite linear;
+}
+@keyframes flash {
+            0% { filter: brightness(1); }
+            45% { filter: brightness(1); }
+            50% { filter: brightness(1.8); }
+            55% { filter: brightness(1); }
+            100% { filter: brightness(1); }
 }
 h1{
     font-family: fantasy;
     font-size: 50px;
     text-align: center;
     color: rgb(137, 142, 12);
+}
+h2{
+    font-family: gothic;
+    font-size: 25px;
+    color: rgb(147, 19, 19);
+}
+h3{
+    font-family: gothic;
+    font-size: 20px;
+    color: rgb(6, 6, 6);
 }
