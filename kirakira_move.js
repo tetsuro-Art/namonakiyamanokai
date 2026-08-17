@@ -13,9 +13,3 @@ cost video = document.getElementById('.intro-video');
 video.addEventLitener('timeupdate',function onFirstFrame(){
     if(video.currentTime>0) {
         console.log('kirakira-start')
-        video.removeEventListener('timeupdate',onFirstFrame);
-        video.addEventListener('ended',() => {
-            window.location.href = 'index.html';
-        });
-    }
-});
