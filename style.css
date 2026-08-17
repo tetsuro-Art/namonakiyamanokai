@@ -88,4 +88,14 @@ img {
 #visitor-counter img {
     filter: drop-shadow(0 0 3px #000);
 }
+.flash-bg {
+    animation: flash 3s infinite;
+}
+
+@keyframes flash {
+    0%   { filter: brightness(1); }
+    5%   { filter: brightness(1.8); } /* 一瞬だけ明るくする */
+    10%  { filter: brightness(1); }
+    100% { filter: brightness(1); }
+}
 
