@@ -89,7 +89,7 @@ img {
     filter: drop-shadow(0 0 3px #000);
 }
 .flash-bg {
-    animation: flash 3s infinite;
+    animation: flash 4s infinite;
 }
 
 @keyframes flash {
