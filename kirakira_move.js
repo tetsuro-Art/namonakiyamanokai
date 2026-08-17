@@ -9,7 +9,17 @@ document.addEventListener("DOMContentLoaded", () => {
         }, duration);
     };
 });
-cost video = document.getElementById('.intro-video');
-video.addEventLitener('timeupdate',function onFirstFrame(){
+    cost video = document.getElementById('.intro-video');
+    video.addEventLitener('timeupdate',function onFirstFrame(){
     if(video.currentTime>0) {
-        console.log('kirakira-start')
+    console.log('kirakira-start')
+        
+    video.onloadedmetadata = () => {
+        const duration = video.duration * 1000; // ミリ秒に変換
+        setTimeout(() => {
+            window.location.href = "index.html";
+        }, duration);
+    };
+});
+ 
+
