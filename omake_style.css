@@ -1,0 +1,47 @@
+body{
+    background-color: aqua;
+}
+
+.img-float{
+    width: 600px;
+    height: 600px;
+    object-fit:cover;
+    border-radius:  50%;
+    animation: float 5s ease-in-out infinite;
+}
+.center-wrapper {
+    display: flex;
+    justify-content: center; /* 横中央 */
+    align-items: center;      /* 縦中央 */
+    height: 100vh;            /* 画面いっぱいの高さ */
+}
+
+@keyframes float {
+    0%,100%{
+        translate: 0;
+    }
+    50% {
+        translate: 400px 0 ;
+        rotate: 90deg;
+    }
+}
+.img-title-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 画面中央に配置する場合 */
+}
+
+.img-title {
+    position: absolute;
+    top: 20px; /* 上部に配置 */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    font-family: "Hachi Maru Pop", "Comic Sans MS", sans-serif; /* 楽しげな字体 */
+    letter-spacing: 4px; /* ちょっと可愛く */
+}
