@@ -74,7 +74,7 @@ table {
 }
 .gallery-button {
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1rem 2.5rem;
@@ -93,6 +93,10 @@ table {
     background: rgba(255, 255, 255, 0.9);
     transform: translate(-50%, -50%) scale(1.05);
 }
+@media (max-width: 600px) {
+    .gallery-button {
+        top: 70%;   /* ★スマホでは少し上げるとちょうど良い */
+        font-size: 1.3rem;
         padding: 0.8rem 2rem;
     }
 }
