@@ -95,7 +95,7 @@ table {
 }
 @media (max-width: 600px) {
     .gallery-button {
-        top: 70%;   /* ★スマホでは少し上げるとちょうど良い */
+        top: 50%;   /* ★スマホでは少し上げるとちょうど良い */
         font-size: 1.3rem;
         padding: 0.8rem 2rem;
     }
