@@ -59,9 +59,44 @@ img {
 }
 .cover-home {
     background-image: url(images/yama5.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative; /* ★これが必須！ */
+    height: 100vh;      /* 階段を画面いっぱいに見せる */
 }
+
 table {
     display: flex;
     justify-content: center;
     color: rgb(86, 127, 46);
+}
+.gallery-button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem 2.5rem;
+    background: rgba(255, 255, 255, 0.75);
+    color: #2f4f2f;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    backdrop-filter: blur(4px);
+    transition: 0.3s;
+}
+
+.gallery-button:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translate(-50%, -50%) scale(1.05);
+}
+@media (max-width: 600px) {
+    .gallery-button {
+        top: 85%;   /* ★スマホでは少し上げるとちょうど良い */
+        font-size: 1.3rem;
+        padding: 0.8rem 2rem;
+    }
 }
