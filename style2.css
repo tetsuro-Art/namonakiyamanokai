@@ -59,5 +59,11 @@ img {
 }
 .cover-home {
     background-image: url(images/yama3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative; /* ★これが必須！ */
+    height: 100vh;      /* 階段を画面いっぱいに見せる */
 }
 
