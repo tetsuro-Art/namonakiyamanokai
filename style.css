@@ -69,11 +69,20 @@ img {
     color: #0bd;
 }
 .cover {
-    background-image: url(images/yama2.jpg);
     background-size: cover;
     background-position: center bottom;
     height: 1050px;
 }
+.cover-home {
+    background-image: url(images/yama2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative; /* ★これが必須！ */
+    height: 100vh;      /* 階段を画面いっぱいに見せる */
+}
+
 .copyright{
     text-align: center;
     padding: 19rem 0;
