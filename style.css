@@ -7,7 +7,7 @@ html{
 body{
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
-    color: #432;
+    color: rgb(4, 248, 4);
 
     /* あなたが望む青背景（初期状態） */
     background-color: #000;
