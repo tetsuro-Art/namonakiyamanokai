@@ -1,0 +1,72 @@
+#particle-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(#237,#014);
+}
+.particle {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    pointer-events: none;
+    animation:snow 5s linear infinite;
+}
+@keyframes snow {
+    0% {
+        transform: translate(0, -50px);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 400px);
+        opacity: 0;
+    }
+}
+h2 {
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    color: white;
+    text-shadow: 0 0 5px #000;
+}
+
+a {
+    color: rgb(5, 236, 253);
+    text-shadow: 0 0 5px #000;
+
+}
+
+h1 {
+    position: absolute;
+    left: 20px;
+    bottom: 80px; /* ← h1 より上に配置 */
+    color: white;
+    text-shadow: 0 0 5px #000;
+}
+
+.photo-box {
+    position: absolute;
+    top: 65%;                 /* 中央より少し下 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 60px;                /* ← もっと離す（自然な間隔） */
+}
+
+.photo-box img {
+    width: 350px;             /* 左の画像：標準サイズ */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #000;
+}
+
+/* 右の画像だけ横長にする */
+.photo-box img.wide {
+    width: 350px;             /* ← 横長にする（自然な比率） */
+    height: auto;
+}
