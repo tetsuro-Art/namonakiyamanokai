@@ -114,3 +114,20 @@ img {
     text-align: right;   /* ← これだけで右寄せになる */
     margin-right: 55rem;  /* ← 好きな余白に調整 */
 }
+.btn-wrapper {
+    text-align: right;
+    margin-right: 55rem; /* PC用 */
+}
+
+@media (max-width: 600px) {
+    .btn-wrapper {
+        margin-right: 2rem; /* スマホ用に縮小 */
+    }
+
+    .btn-shine {
+        display: inline-block;
+        white-space: nowrap; /* ←縦書き防止 */
+        padding: 0.8rem 1.2rem;
+        font-size: 1.2rem;
+    }
+}
