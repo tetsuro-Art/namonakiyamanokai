@@ -112,5 +112,5 @@ img {
 }
 .btn-wrapper {
     text-align: right;   /* ← これだけで右寄せになる */
-    margin-right: 60rem;  /* ← 好きな余白に調整 */
+    margin-right: 55rem;  /* ← 好きな余白に調整 */
 }
