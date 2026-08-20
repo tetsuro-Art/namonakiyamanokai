@@ -71,9 +71,9 @@ img {
 
 .btn-shine {
     position: relative;
-    padding: 1rem 1.5rem;
+    padding: 10px 20px;
     border: 0;
-    font-size: 1.4rem;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 8px;
     color: #fff;
@@ -112,5 +112,5 @@ img {
 }
 .btn-wrapper {
     text-align: right;   /* ← これだけで右寄せになる */
-    margin-right: 70rem;  /* ← 好きな余白に調整 */
+    margin-right: 60rem;  /* ← 好きな余白に調整 */
 }
