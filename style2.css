@@ -71,9 +71,9 @@ img {
 
 .btn-shine {
     position: relative;
-    padding: 10px 20px;
+    padding: 0.8rem 1.2rem;
     border: 0;
-    font-size: 20px;
+    font-size: 1.2rem;
     cursor: pointer;
     border-radius: 8px;
     color: #fff;
@@ -83,6 +83,7 @@ img {
     display: inline-block;
     margin-left: auto;
     margin-right: 2rem; /* ← 右寄せ調整 */
+    white-space: nowrap;     /* 折り返し禁止 → 縦書き防止 */
 }
 
 .btn-shine a {
@@ -122,8 +123,10 @@ img {
 
 /* スマホ用 */
 @media (max-width: 600px) {
+
     .btn-wrapper {
         margin-right: 2rem; /* スマホでは余白を小さく */
+        text-align: right;
     }
 
     .btn-shine {
@@ -133,4 +136,3 @@ img {
         font-size: 1.2rem;
     }
 }
-
