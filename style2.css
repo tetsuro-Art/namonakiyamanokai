@@ -119,7 +119,7 @@ table {
 }
 .btn-wrapper {
     text-align: left;   /* ← これだけで右寄せになる */
-    margin-left: 30rem;  /* ← 好きな余白に調整 */
+    margin-left: 35rem;  /* ← 好きな余白に調整 */
     margin-top: 1rem;   /* ← table からボタンを下に離す */
 }
 
