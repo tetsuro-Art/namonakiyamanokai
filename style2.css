@@ -76,7 +76,7 @@ img {
     cursor: pointer;
     border-radius: 8px;
     color: #fff;
-    background-color: rgb(4, 140, 219);
+    background-color: rgb(6, 36, 232);
     overflow: hidden;
 
     display: inline-block;
@@ -122,10 +122,9 @@ img {
 
     .btn-shine {
         margin-left: 20rem; /* ← 左から数センチ右へ */
-        margin-right: 0;
     }
     .btn-wrapper {
-        text-align: left;   /* ← スマホでは左寄せに戻す */
-        margin-right: 0;    /* ← 右寄せの余白を消す */
+        margin-left: 2rem;   /* ← ボタン全体を左から少し右へ */
+        text-align: left;    /* ← 念のため左寄せに戻す */
     }
 }
