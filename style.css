@@ -116,8 +116,8 @@ img {
 
 @keyframes flash {
     0%   { filter: brightness(1); }
-    5%   { filter: brightness(1.8); } /* 一瞬だけ明るくする */
+    5%   { filter: brightness(1); }
     10%  { filter: brightness(1); }
-    100% { filter: brightness(1); }
+    100% { filter: brightness(1.8); } /* 一瞬だけ明るくする */
 }
 
