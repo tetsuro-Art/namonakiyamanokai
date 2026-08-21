@@ -67,10 +67,6 @@ img {
 
     position: relative; /* ★これが必須！ */
     height: 100vh;      /* 階段を画面いっぱいに見せる */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; /* ← 右寄せ */
 }
 
 .btn-shine {
