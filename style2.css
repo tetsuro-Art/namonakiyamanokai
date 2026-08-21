@@ -132,14 +132,13 @@ table {
     .btn-wrapper {
         width: 100%;
         text-align: left;
-        margin-left: 55rem;   /* ★ 左から右へ確実に動く */
+        margin-left: 80rem;   /* ★ 左から右へ確実に動く */
         margin-top: 1rem;   /* ← table からボタンを下に離す */
     }
 
     .btn-shine {
         width: 100%;
         text-align: left;
-        margin-left: 55rem;
+        margin-left: 80rem;
     }
 }
-
