@@ -17,8 +17,12 @@ a {
 img {
     max-width: 100%;
 }
+.heading-medium {
+    margin-left: 1.5rem;   /* ← Information を左から少し右へ */
+}
 table {
     font-size: 1.5rem;
+    margin-left: 1.5rem;
 }
 /*レイアウト */
 .align-center {
@@ -116,6 +120,7 @@ table {
 .btn-wrapper {
     text-align: right;   /* ← これだけで右寄せになる */
     margin-right: 55rem;  /* ← 好きな余白に調整 */
+    margin-top: 1rem;   /* ← table からボタンを下に離す */
 }
 
 @media (max-width: 600px) {
@@ -129,6 +134,7 @@ table {
         text-align: left;
         margin-left: 2rem;   /* ★ 左から右へ確実に動く */
         margin-right: 0;
+        margin-top: 1rem;   /* ← table からボタンを下に離す */
     }
 
     .btn-shine {
