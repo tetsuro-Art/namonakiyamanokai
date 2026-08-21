@@ -17,6 +17,9 @@ a {
 img {
     max-width: 100%;
 }
+table {
+    font-size: 1.5rem;
+}
 /*レイアウト */
 .align-center {
     text-align: center;
