@@ -67,6 +67,10 @@ img {
 
     position: relative; /* ★これが必須！ */
     height: 100vh;      /* 階段を画面いっぱいに見せる */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* ← 右寄せ */
 }
 
 .btn-shine {
@@ -115,24 +119,22 @@ img {
     text-align: right;   /* ← これだけで右寄せになる */
     margin-right: 55rem;  /* ← 好きな余白に調整 */
 }
-/* PC用 */
-.btn-wrapper {
-    text-align: right;
-    margin-right: 55rem;
-}
 
-/* スマホ用 */
 @media (max-width: 600px) {
-
     .btn-wrapper {
-        margin-right: 2rem; /* スマホでは余白を小さく */
+        margin-right: 2rem;
         text-align: right;
     }
 
     .btn-shine {
-        display: inline-block;   /* 横幅を持たせる */
-        white-space: nowrap;     /* 折り返し禁止 → 縦書き防止 */
-        padding: 0.8rem 1.2rem;  /* スマホ向けサイズ */
+        display: inline-block;
+        white-space: nowrap;
+        padding: 0.8rem 1.2rem;
         font-size: 1.2rem;
+
+        width: auto;          /* ← 横幅を持たせる */
+        align-self: flex-end; /* ← 右端へ移動 */
+        margin-right: 2rem;
     }
 }
+
