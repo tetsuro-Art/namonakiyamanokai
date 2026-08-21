@@ -118,8 +118,8 @@ table {
     translate: 300% 0;
 }
 .btn-wrapper {
-    text-align: right;   /* ← これだけで右寄せになる */
-    margin-right: 55rem;  /* ← 好きな余白に調整 */
+    text-align: left;   /* ← これだけで右寄せになる */
+    margin-left: 30rem;  /* ← 好きな余白に調整 */
     margin-top: 1rem;   /* ← table からボタンを下に離す */
 }
 
@@ -132,12 +132,14 @@ table {
     .btn-wrapper {
         width: 100%;
         text-align: left;
-        margin-left: 2rem;   /* ★ 左から右へ確実に動く */
+        margin-left: 30rem;   /* ★ 左から右へ確実に動く */
         margin-top: 1rem;   /* ← table からボタンを下に離す */
     }
 
     .btn-shine {
-        margin-left: 2rem;
+        width: 100%;
+        text-align: left;
+        margin-left: 30rem;
     }
 }
 
