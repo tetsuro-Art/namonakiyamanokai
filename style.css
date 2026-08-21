@@ -111,13 +111,13 @@ img {
     filter: drop-shadow(0 0 6px #000);
 }
 .flash-bg {
-    animation: flash 4s infinite;
+    animation: flash 4s forwards;  /* ★ 最後の状態を保持する */
 }
 
 @keyframes flash {
     0%   { filter: brightness(1); }
     5%   { filter: brightness(1); }
     10%  { filter: brightness(1); }
-    100% { filter: brightness(1.8); } /* 一瞬だけ明るくする */
+    100% { filter: brightness(1.8); } /* 明るくする */
 }
 
