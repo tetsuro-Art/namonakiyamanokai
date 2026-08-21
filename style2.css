@@ -121,7 +121,7 @@ img {
     }
 
     .btn-shine {
-        margin-left: 2rem; /* ← 左から数センチ右へ */
+        margin-left: 20rem; /* ← 左から数センチ右へ */
         margin-right: 0;
     }
 }
