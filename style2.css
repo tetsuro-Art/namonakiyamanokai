@@ -133,13 +133,13 @@ table {
         width: 100%;
         text-align: left;
         margin-left: 2rem;   /* ★ 左から右へ確実に動く */
-        margin-right: 20rem;
+        margin-right: 150rem;
         margin-top: 1rem;   /* ← table からボタンを下に離す */
     }
 
     .btn-shine {
         margin-left: 2rem;
-        margin-right: 20rem;
+        margin-right: 150rem;
     }
 }
 
