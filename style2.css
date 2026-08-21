@@ -126,7 +126,7 @@ img {
     .btn-wrapper {
         width: 100%;        /* ★ これが決定的に必要！ */
         text-align: left;   /* 左寄せに戻す */
-        margin-left: 55rem;  /* ★ ボタン全体を左から少し右へ動かす */
+        margin-left: -40rem;  /* ★ ボタン全体を左から少し右へ動かす */
         margin-right: 0;
     }
 
