@@ -7,7 +7,7 @@ html{
 body{
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
-    color: rgb(1, 255, 230);
+    color: rgb(1, 43, 255);
 
     /* あなたが望む青背景（初期状態） */
     background-color: #000;
@@ -40,7 +40,7 @@ img {
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
-    margin-top: 12rem;
+    margin-top: 9rem;
     line-height: 1.4;
 }
 
@@ -49,8 +49,9 @@ img {
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
-    margin-top: 4.5rem;
+    margin-top: 6rem;
     line-height: 1.4;
+    color: aqua;
 }
 
 
@@ -99,16 +100,18 @@ img {
 .copyright{
     text-align: center;
     padding: 0 0;
-    margin-top: 8rem;
-    color:white
+    margin-top: 9rem;
+    color:rgb(248, 252, 3)
 }
 #visitor-counter {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 8rem;
     font-size: 2.0rem;  
 }
 #visitor-counter img {
     filter: drop-shadow(0 0 6px #000);
+    width: 150px;   /* ★ 好きな大きさに調整できる */
+    height: auto;   /* ★ 縦横比を保つ */
 }
 .flash-bg {
     animation: flash 4s forwards;  /* ★ 最後の状態を保持する */
