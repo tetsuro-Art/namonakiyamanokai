@@ -117,22 +117,20 @@ img {
 
 @media (max-width: 600px) {
 
-    /* スマホでは cover-home の右寄せを解除（念のため） */
     .cover-home {
         align-items: flex-start;
     }
 
-    /* ボタンを包む箱を「横幅100%」にして動くスペースを作る */
     .btn-wrapper {
-        width: 100%;        /* ★ これが決定的に必要！ */
-        text-align: left;   /* 左寄せに戻す */
-        margin-left: -40rem;  /* ★ ボタン全体を左から少し右へ動かす */
+        width: 100%;
+        text-align: left;
+        margin-left: 2rem;   /* ★ 左から右へ確実に動く */
         margin-right: 0;
     }
 
-    /* ボタン自身は wrapper の margin-left を使うので 0 にする */
     .btn-shine {
         margin-left: 0;
         margin-right: 0;
     }
 }
+
