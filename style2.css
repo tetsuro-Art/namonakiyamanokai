@@ -124,5 +124,8 @@ img {
         margin-left: 20rem; /* ← 左から数センチ右へ */
         margin-right: 0;
     }
+    .btn-wrapper {
+        text-align: left;   /* ← スマホでは左寄せに戻す */
+        margin-right: 0;    /* ← 右寄せの余白を消す */
+    }
 }
-
