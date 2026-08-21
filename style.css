@@ -7,7 +7,7 @@ html{
 body{
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
-    color: rgb(29, 18, 225);
+    color: rgb(1, 255, 230);
 
     /* あなたが望む青背景（初期状態） */
     background-color: #000;
@@ -36,12 +36,23 @@ img {
 }
 
 .page-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 12rem;
     line-height: 1.4;
 }
+
+.page-title-2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4.5rem;
+    line-height: 1.4;
+}
+
 
 /* ヘッダー */
 .page-header {
@@ -64,6 +75,7 @@ img {
 
 .main-nav a {
     color: rgb(248, 2, 2);   /* ←初期の紫っぽい色 */
+    font-weight: 700;
 }
 
 .main-nav a:hover {
@@ -87,16 +99,16 @@ img {
 .copyright{
     text-align: center;
     padding: 0 0;
-    margin-top: 15rem;
+    margin-top: 8rem;
     color:white
 }
 #visitor-counter {
     text-align: center;
-    margin-top: 6rem;
-    font-size: 1.6rem;  
+    margin-top: 5rem;
+    font-size: 2.0rem;  
 }
 #visitor-counter img {
-    filter: drop-shadow(0 0 3px #000);
+    filter: drop-shadow(0 0 6px #000);
 }
 .flash-bg {
     animation: flash 4s infinite;
