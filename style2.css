@@ -116,9 +116,13 @@ img {
 }
 
 @media (max-width: 600px) {
+    .cover-home {
+        align-items: flex-start; /* ← スマホでは右寄せを解除 */
+    }
+
     .btn-shine {
-        margin-left: 2rem; /* ← 左から数センチ右へ動かす */
-        margin-right: 0;   /* ← 右寄せを解除する */
+        margin-left: 2rem; /* ← 左から数センチ右へ */
+        margin-right: 0;
     }
 }
 
