@@ -75,10 +75,11 @@ img {
 
 table {
     margin-top: 3rem;
-    margin-left: 25rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
     justify-content: center;
     color: rgb(86, 127, 46);
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 .gallery-button {
     position: absolute;
