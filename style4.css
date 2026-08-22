@@ -115,8 +115,3 @@ table {
         font-size: 0.9rem;   /* ★かなり小さくすることで1行に収まる */
         white-space: nowrap; /* ★折り返し禁止 */
     }
-
-    table td, table th {
-        white-space: nowrap; /* ★セル内の折り返しも完全禁止 */
-    }
-}
