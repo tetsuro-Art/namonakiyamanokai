@@ -108,10 +108,4 @@ table {
         font-size: 1.3rem;
         padding: 0.8rem 2rem;
     }
-    table {
-        margin-left: 2rem;
-        margin-right: 2rem;
-        font-size: 0.9rem;   /* ★かなり小さくすることで1行に収まる */
-        white-space: nowrap; /* ★折り返し禁止 */
-    }
 }
