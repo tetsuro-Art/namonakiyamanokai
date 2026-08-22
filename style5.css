@@ -27,7 +27,7 @@ img {
 .page-title {
     font-size: 2rem;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 8rem;
     line-height: 1.4;
 }
 /*ヘッダー
@@ -68,7 +68,7 @@ img {
 }
 .enter-btn{
     font-size: 20px;
-    margin-top: 11rem;
+    margin-top: 7rem;
     padding: 10px 20px;
     border-radius: 10px;
     color: rgb(211,135,154);                 /* 文字を白にする */
