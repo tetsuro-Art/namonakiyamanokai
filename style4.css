@@ -80,7 +80,6 @@ table {
     justify-content: center;
     color: rgb(86, 127, 46);
     font-size: 2rem;
-    white-space: nowrap; /* ★折り返し禁止（PC用） */
 }
 .gallery-button {
     position: absolute;
