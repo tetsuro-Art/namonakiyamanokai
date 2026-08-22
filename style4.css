@@ -76,6 +76,7 @@ img {
 table {
     margin-top: 3rem;
     margin-left: 20rem;
+    margin-right: 20rem;
     justify-content: center;
     color: rgb(86, 127, 46);
     font-size: 2rem;
@@ -109,5 +110,9 @@ table {
         top: 70%;   /* ★スマホでは少し上げるとちょうど良い */
         font-size: 1.3rem;
         padding: 0.8rem 2rem;
+    }
+    table{
+        margin-left: 10rem;
+        margin-right: 10rem;
     }
 }
