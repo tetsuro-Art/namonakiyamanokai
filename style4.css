@@ -108,4 +108,14 @@ table {
         font-size: 1.3rem;
         padding: 0.8rem 2rem;
     }
+    table {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 1.0rem;
+        white-space: nowrap;
+    }
+
+    table td, table th {
+        white-space: nowrap;
+    }
 }
