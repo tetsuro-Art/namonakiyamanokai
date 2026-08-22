@@ -75,10 +75,11 @@ img {
 
 table {
     margin-top: 3rem;
-    margin-left: 20rem;
+    margin-left: 28%;
     justify-content: center;
     color: rgb(86, 127, 46);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 2%;
 }
 .gallery-button {
     position: absolute;
@@ -110,7 +111,3 @@ table {
         font-size: 1.3rem;
         padding: 0.8rem 2rem;
     }
-    table{
-        margin-left: 5rem;
-    }
-}
