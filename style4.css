@@ -76,7 +76,6 @@ img {
 table {
     margin-top: 3rem;
     margin-left: 20rem;
-    margin-right: 20rem;
     justify-content: center;
     color: rgb(86, 127, 46);
     font-size: 2rem;
@@ -103,20 +102,12 @@ table {
     transform: translate(-50%, -50%) scale(1.05);
 }
 @media (max-width: 600px) {
+    .cover-home {
+        align-items: flex-start;
+    }
     .gallery-button {
         top: 70%;   /* ★スマホでは少し上げるとちょうど良い */
         font-size: 1.3rem;
         padding: 0.8rem 2rem;
-    }
-    table {
-        width: 100vw;          /* ★画面幅いっぱいに広げる（最重要） */
-        margin-left: 0;        /* 余白をゼロにする */
-        margin-right: 0;
-        font-size: 1.0rem;     /* 少し小さくして収まりやすく */
-        white-space: nowrap;   /* 折り返し禁止 */
-    }
-
-    table td, table th {
-        white-space: nowrap;
     }
 }
