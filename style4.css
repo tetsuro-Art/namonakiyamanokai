@@ -9,6 +9,12 @@ body{
 
     background-color: #000;
 }
+h3{
+    font-size: 1.3rem;
+    text-align: center;
+    color: #2f4f2f;
+    margin-top: 2rem;
+}
 a {
     text-decoration: none;
 }
@@ -68,9 +74,11 @@ img {
 }
 
 table {
-    display: flex;
+    margin-top: 3rem;
+    margin-left: 25rem;
     justify-content: center;
     color: rgb(86, 127, 46);
+    font-size: 1.8rem;
 }
 .gallery-button {
     position: absolute;
