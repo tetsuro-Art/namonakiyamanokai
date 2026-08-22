@@ -76,7 +76,7 @@ img {
 table {
     position: relative;
     margin-top: 3rem;
-    margin-left: 28%;
+    margin-left: 20%;
     justify-content: center;
     color: rgb(86, 127, 46);
     font-size: 1.5rem;
@@ -111,9 +111,5 @@ table {
         top: 70%;   /* ★スマホでは少し上げるとちょうど良い */
         font-size: 1.3rem;
         padding: 0.8rem 2rem;
-    }
-    table{
-        position: absolute;
-        text-align: center;
     }
 }
