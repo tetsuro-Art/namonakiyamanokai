@@ -15,6 +15,13 @@ a {
 img {
     max-width: 100%;
 }
+.page-header a {
+    color: #fff;
+}
+.title-main {
+    color: #fff;
+}
+
 /*レイアウト */
 .align-center {
     text-align: center;
