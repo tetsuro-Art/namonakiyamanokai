@@ -30,6 +30,11 @@ img {
     margin-top: 8rem;
     line-height: 1.4;
 }
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
 /*ヘッダー
 --------------------------------- */
 .page-header {
